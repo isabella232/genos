@@ -81620,147 +81620,76 @@ note = circumflexcomb_tildecomb;
 );
 instances = (
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 1;
 };
 isItalic = 1;
-name = ThinItalic;
+linkStyle = Thin;
+name = "Thin Italic";
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 interpolationWeight = 200;
 instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.875;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.125;
 };
 isItalic = 1;
-name = LightItalic;
-weightClass = UltraLight;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
 },
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 interpolationWeight = 300;
 instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.75;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.25;
 };
 isItalic = 1;
-name = BookItalic;
+linkStyle = Light;
+name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 interpolationWeight = 400;
 instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.625;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.375;
 };
 isItalic = 1;
-name = RegularItalic;
+name = Italic;
 },
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 interpolationWeight = 500;
 instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.5;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.5;
 };
 isItalic = 1;
-name = MediumItalic;
+linkStyle = Medium;
+name = "Medium Italic";
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.25;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.75;
 };
+isBold = 1;
 isItalic = 1;
-name = BoldItalic;
+name = "Bold Italic";
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-}
-);
 interpolationWeight = 900;
 instanceInterpolations = {
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 1;
 };
 isItalic = 1;
-name = BlackItalic;
+linkStyle = Black;
+name = "Black Italic";
 weightClass = Black;
 }
 );

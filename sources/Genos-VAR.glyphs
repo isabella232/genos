@@ -81166,7 +81166,7 @@ instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.875;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.125;
 };
-name = Light;
+name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
@@ -81202,6 +81202,7 @@ instanceInterpolations = {
 "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6" = 0.25;
 "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C" = 0.75;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -83050,7 +83051,8 @@ two = -29;
 };
 };
 };
-manufacturer = "PYRS Fontlab Ltd. / Made with FontLab";
+manufacturer = "Robert E. Leuschke";
+manufacturerURL = "http://www.typesetit.com";
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 1;
