@@ -4,7 +4,8 @@ DisplayStrings = (
 "/nbspace",
 "no/four.osf",
 "/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf",
-"1/one.tosf/two.tosf/three.tosf/four.tosf/five.tosf/six.tosf/seven.tosf/eight.tosf/nine.tosf/cent.tosf/dollar.tosf/currency.tosf/Euro/Euro.tosf 23"
+"1/one.tosf/two.tosf/three.tosf/four.tosf/five.tosf/six.tosf/seven.tosf/eight.tosf/nine.tosf/cent.tosf/dollar.tosf/currency.tosf/Euro/Euro.tosf 23",
+"/fi/space/fl/space/f_t/space/s_t/space/c_t/space/f_f/space/f_f_i/space/f_f_l \012fi/space fl/space ft/space st/space ct/space ff/space ffi/space ffl"
 );
 copyright = "Copyright 2011 The Genos Project Authors (https://github.com/googlefonts/genos)";
 customParameters = (
@@ -14459,7 +14460,7 @@ unicode = 0065;
 },
 {
 glyphname = f;
-lastChange = "2021-04-15 21:31:38 +0000";
+lastChange = "2021-04-16 13:16:30 +0000";
 layers = (
 {
 hints = (
@@ -30692,9 +30693,15 @@ unicode = 203A;
 },
 {
 glyphname = fi;
-lastChange = "2021-04-15 21:31:38 +0000";
+lastChange = "2021-04-16 13:16:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{422.5, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -30924,6 +30931,12 @@ nodes = (
 width = 845;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{219.5, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -31173,9 +31186,15 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2021-04-15 21:31:38 +0000";
+lastChange = "2021-04-16 13:16:45 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{403.5, 0}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -31321,6 +31340,12 @@ nodes = (
 width = 807;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{207, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -31524,9 +31549,15 @@ unicode = FB02;
 },
 {
 glyphname = f_t;
-lastChange = "2021-04-15 21:31:38 +0000";
+lastChange = "2021-04-16 13:17:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{388, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -31743,6 +31774,12 @@ nodes = (
 width = 846;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{192, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -32009,9 +32046,15 @@ note = f_t;
 },
 {
 glyphname = s_t;
-lastChange = "2021-04-15 21:31:38 +0000";
+lastChange = "2021-04-16 13:17:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{592, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -32333,6 +32376,12 @@ nodes = (
 width = 989;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{414, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -32762,9 +32811,15 @@ unicode = FB06;
 },
 {
 glyphname = c_t;
-lastChange = "2021-04-15 21:31:38 +0000";
+lastChange = "2021-04-16 13:17:30 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{567, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -32993,6 +33048,12 @@ nodes = (
 width = 949;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{457, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -92623,9 +92684,15 @@ unicode = 1EF9;
 },
 {
 glyphname = f_f;
-lastChange = "2021-04-16 13:02:18 +0000";
+lastChange = "2021-04-16 13:17:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{433, 0}";
+}
+);
 background = {
 hints = (
 {
@@ -92815,6 +92882,12 @@ nodes = (
 width = 966;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{205, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -93055,9 +93128,19 @@ rightKerningGroup = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2021-04-16 13:01:52 +0000";
+lastChange = "2021-04-16 13:17:50 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{442.667, 0}";
+},
+{
+name = caret_2;
+position = "{885.333, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -93111,6 +93194,16 @@ layerId = "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C";
 width = 1328;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{210.667, 0}";
+},
+{
+name = caret_2;
+position = "{421.333, 0}";
+}
+);
 background = {
 components = (
 {
@@ -93192,9 +93285,19 @@ note = ffi;
 },
 {
 glyphname = f_f_l;
-lastChange = "2021-04-16 13:02:00 +0000";
+lastChange = "2021-04-16 13:17:56 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{430, 0}";
+},
+{
+name = caret_2;
+position = "{860, 0}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -93416,6 +93519,16 @@ nodes = (
 width = 1290;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{219.333, 0}";
+},
+{
+name = caret_2;
+position = "{438.667, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -99092,7 +99205,10 @@ kerning = {
 "@MMK_R_zero" = -31;
 };
 "@MMK_L_f" = {
+"@MMK_R_bracketleft" = -10;
 "@MMK_R_comma" = -83;
+"@MMK_R_t" = -10;
+f = -10;
 };
 "@MMK_L_h" = {
 "@MMK_R_thorn" = 10;
