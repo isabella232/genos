@@ -1,16 +1,16 @@
 name: CI VF ttf
 
-on: push
-  # push:
-  #   branches: 
-  #   - main
-  #   paths:
-  #   - sources/**
-  # pull_request:
-  #   branches: 
-  #   - main
-  #   paths:
-  #   - sources/**
+on: #push
+  push:
+    branches: 
+    - master
+    paths:
+    - sources/**
+  pull_request:
+    branches: 
+    - master
+    paths:
+    - sources/**
 
 jobs:
   static-font-ci-job:
@@ -37,18 +37,22 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
       - name: Build fonts
         id: build_fonts
         run: gftools builder sources/config.yml
       - name: Upload Fonts
         uses: actions/upload-artifact@v2
         with:
-          name: Genos_Fonts
+          name: Genis_Fonts
           path: fonts/
       - name: Make Fontbakery Report
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --succinct --loglopen .evel WARN --ghmarkdown fonts/report.md"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
           path: "fonts/variable/*.ttf"
