@@ -15,7 +15,8 @@ DisplayStrings = (
 "i/idotbelow",
 "/idotless/iogonek",
 "I/Iogonek",
-"e/circumflexcomb_tildecomb.case"
+"e/circumflexcomb_tildecomb.case",
+"/divisionslash"
 );
 classes = (
 {
@@ -74301,6 +74302,33 @@ width = 640;
 note = Euro.taboldstyle;
 },
 {
+glyphname = divisionslash;
+lastChange = "2021-06-23 05:40:52 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0.14054, 1, -38, 0}";
+}
+);
+layerId = "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6";
+width = 345;
+},
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0.14054, 1, -37, 0}";
+}
+);
+layerId = "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C";
+width = 480;
+}
+);
+unicode = 2215;
+},
+{
 color = 1;
 glyphname = dieresiscomb;
 lastChange = "2021-06-22 04:14:05 +0000";
@@ -79393,6 +79421,19 @@ width = 253;
 }
 );
 note = circumflexcomb_tildecomb;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6";
+width = 600;
+},
+{
+layerId = "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C";
+width = 600;
+}
+);
 }
 );
 instances = (
