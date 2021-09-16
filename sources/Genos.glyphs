@@ -175,13 +175,13 @@ name = ss02;
 fontMaster = (
 {
 alignmentZones = (
-"{960, 16}",
+"{505, 10}",
 "{460, 10}",
-"{399, 5}",
-"{0, -8}",
-"{-350, -16}"
+"{400, 10}",
+"{0, -10}",
+"{-107, -16}"
 );
-ascender = 960;
+ascender = 505;
 capHeight = 460;
 custom = Thin;
 customParameters = (
@@ -226,7 +226,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -350;
+descender = -107;
 guideLines = (
 {
 locked = 1;
@@ -259,20 +259,28 @@ angle = 90;
 position = "{394, -26}";
 }
 );
+horizontalStems = (
+14,
+17
+);
 iconName = Light;
 id = "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6";
+verticalStems = (
+18,
+22
+);
 widthValue = 5;
-xHeight = 399;
+xHeight = 400;
 },
 {
 alignmentZones = (
-"{960, 16}",
-"{460, 8}",
-"{399, 7}",
-"{0, -8}",
-"{-350, -16}"
+"{505, 10}",
+"{460, 10}",
+"{400, 10}",
+"{0, -10}",
+"{-107, -16}"
 );
-ascender = 960;
+ascender = 505;
 capHeight = 460;
 custom = Black;
 customParameters = (
@@ -317,7 +325,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -350;
+descender = -107;
 guideLines = (
 {
 locked = 1;
@@ -350,10 +358,18 @@ locked = 1;
 position = "{44, 586}";
 }
 );
+horizontalStems = (
+110,
+116
+);
 id = "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C";
+verticalStems = (
+208,
+228
+);
 weightValue = 900;
 widthValue = 5;
-xHeight = 399;
+xHeight = 400;
 }
 );
 glyphs = (

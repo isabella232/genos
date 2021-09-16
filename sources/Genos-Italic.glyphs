@@ -1,7 +1,7 @@
 {
 .appVersion = "1352";
 DisplayStrings = (
-"/brevecomb-cy",
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ\012HH/Placeholder HO/Placeholder OO\012A/Placeholder A/space B/Placeholder B/space C/Placeholder C/space D/Placeholder D/space E/Placeholder E/space F/Placeholder F/space G/Placeholder G/space H/Placeholder H/space I/Placeholder I/space J/Placeholder J/space K/Placeholder K/space L/Placeholder L/space M/Placeholder M/space N/Placeholder N/space O/Placeholder O/space P/Placeholder P/space Q/Placeholder Q/space R/Placeholder R/space S/Placeholder S/space T/Placeholder T/space U/Placeholder U/space V/Placeholder V/space W/Placeholder W/space X/Placeholder X/space Y/Placeholder Y/space Z/Placeholder Z/space HH/Placeholder HO/Placeholder OO\012HHUYJAUKMHHBCDEFGHIJKLMNOPQRSTUVWXYZ",
 abcodefghijklmnopqrstuvwxyz,
 "A/Placeholder A/space B/Placeholder B/space C/Placeholder C/space D/Placeholder D/space E/Placeholder E/space F/Placeholder F/space G/Placeholder G/space H/Placeholder H/space I/Placeholder I/space J/Placeholder J/space K/Placeholder K/space L/Placeholder L/space M/Placeholder M/space N/Placeholder N/space O/Placeholder O/space P/Placeholder P/space Q/Placeholder Q/space R/Placeholder R/space S/Placeholder S/space T/Placeholder T/space U/Placeholder U/space V/Placeholder V/space W/Placeholder W/space X/Placeholder X/space Y/Placeholder Y/space Z/Placeholder Z/space HH/Placeholder HO/Placeholder OO\012ABOCDEFGHIJKOLMNOPQRSOTOUOVOWOXOYOZ/space Over/space",
 "/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/commaturnedabovecomb/horncomb/dotbelowcomb/commaaccent/commaaccent/cedillacomb/ogonekcomb/caron.alt/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/caroncomb.alt.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/commaturnedabovecomb.case/brevecomb-cy/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case",
@@ -68,7 +68,7 @@ value = "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6";
 );
 date = "2021-04-16 01:06:12 +0000";
 designer = "Robert E. Leuschke";
-designerURL = /www.typesetit.com;
+designerURL = www.typesetit.com;
 disablesNiceNames = 1;
 familyName = Genos;
 featurePrefixes = (
@@ -172,14 +172,13 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{960, 16}",
-"{575, 7}",
+"{505, 10}",
 "{460, 10}",
-"{399, 10}",
+"{400, 10}",
 "{0, -10}",
-"{-350, -16}"
+"{-107, -16}"
 );
-ascender = 960;
+ascender = 505;
 capHeight = 460;
 custom = "Thin Italic";
 customParameters = (
@@ -224,7 +223,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -350;
+descender = -107;
 guideLines = (
 {
 position = "{287, 460}";
@@ -233,18 +232,29 @@ position = "{287, 460}";
 position = "{287, 543}";
 }
 );
+horizontalStems = (
+14,
+17
+);
 iconName = Light;
 id = "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6";
 italicAngle = 8;
+verticalStems = (
+18,
+22
+);
 widthValue = 5;
-xHeight = 399;
+xHeight = 400;
 },
 {
 alignmentZones = (
-"{575, 7}",
-"{0, -2}"
+"{505, 10}",
+"{460, 10}",
+"{400, 10}",
+"{0, -10}",
+"{-107, -10}"
 );
-ascender = 960;
+ascender = 505;
 capHeight = 460;
 custom = "Black Italic";
 customParameters = (
@@ -289,7 +299,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -350;
+descender = -107;
 guideLines = (
 {
 position = "{159, 102}";
@@ -298,11 +308,19 @@ position = "{159, 102}";
 position = "{463, 291}";
 }
 );
+horizontalStems = (
+110,
+116
+);
 id = "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C";
 italicAngle = 8;
+verticalStems = (
+208,
+228
+);
 weightValue = 900;
 widthValue = 5;
-xHeight = 399;
+xHeight = 400;
 }
 );
 glyphs = (
@@ -23589,7 +23607,7 @@ unicode = 0121;
 {
 color = 7;
 glyphname = h;
-lastChange = "2021-09-09 19:13:55 +0000";
+lastChange = "2021-09-16 21:20:29 +0000";
 layers = (
 {
 anchors = (
@@ -23882,8 +23900,8 @@ nodes = (
 "208 399 OFFCURVE",
 "140 392 OFFCURVE",
 "114 383 CURVE",
-"131 504 LINE",
-"113 504 LINE",
+"131 505 LINE",
+"113 505 LINE",
 "46 21 LINE SMOOTH",
 "43 2 OFFCURVE",
 "44 0 OFFCURVE",
@@ -25802,7 +25820,7 @@ unicode = 0135;
 {
 color = 7;
 glyphname = k;
-lastChange = "2021-09-09 19:16:34 +0000";
+lastChange = "2021-09-16 21:20:39 +0000";
 layers = (
 {
 background = {
@@ -26068,7 +26086,7 @@ nodes = (
 "77 126 LINE",
 "165 209 LINE",
 "307 12 LINE SMOOTH",
-"315 2 OFFCURVE",
+"314 2 OFFCURVE",
 "318 -1 OFFCURVE",
 "326 -1 CURVE SMOOTH",
 "331 -1 OFFCURVE",
@@ -26089,11 +26107,11 @@ nodes = (
 "338 395 OFFCURVE",
 "331 388 CURVE SMOOTH",
 "80 149 LINE",
-"131 506 LINE",
-"123 506 LINE SMOOTH",
-"116 506 OFFCURVE",
-"112 503 OFFCURVE",
-"111 493 CURVE SMOOTH",
+"131 505 LINE",
+"123 505 LINE SMOOTH",
+"116 505 OFFCURVE",
+"112 502 OFFCURVE",
+"111 492 CURVE SMOOTH",
 "42 0 LINE"
 );
 }
@@ -26941,7 +26959,7 @@ unicode = 0142;
 {
 color = 7;
 glyphname = m;
-lastChange = "2021-09-09 19:04:22 +0000";
+lastChange = "2021-09-16 21:18:14 +0000";
 layers = (
 {
 background = {
@@ -27304,7 +27322,7 @@ nodes = (
 "533 0 CURVE",
 "539 0 LINE SMOOTH",
 "547 0 OFFCURVE",
-"551 4 OFFCURVE",
+"552 4 OFFCURVE",
 "553 13 CURVE SMOOTH",
 "593 300 LINE SMOOTH",
 "603 370 OFFCURVE",
@@ -27317,11 +27335,11 @@ nodes = (
 "336 385 OFFCURVE",
 "300 402 OFFCURVE",
 "241 402 CURVE SMOOTH",
-"141 402 OFFCURVE",
-"105 373 OFFCURVE",
+"145 402 OFFCURVE",
+"112 379 OFFCURVE",
 "94 367 CURVE",
 "45 13 LINE SMOOTH",
-"43 3 OFFCURVE",
+"44 3 OFFCURVE",
 "46 0 OFFCURVE",
 "56 0 CURVE SMOOTH"
 );
@@ -30647,7 +30665,7 @@ unicode = 00FE;
 {
 color = 7;
 glyphname = q;
-lastChange = "2021-09-09 19:04:22 +0000";
+lastChange = "2021-09-16 21:41:26 +0000";
 layers = (
 {
 background = {
@@ -30801,7 +30819,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"494 -108 LINE",
+"494 -107 LINE",
 "555 324 LINE SMOOTH",
 "559 353 OFFCURVE",
 "561 378 OFFCURVE",
@@ -30818,7 +30836,7 @@ nodes = (
 "248 -3 OFFCURVE",
 "255 -4 OFFCURVE",
 "301 -1 CURVE",
-"286 -108 LINE"
+"286 -107 LINE"
 );
 },
 {
