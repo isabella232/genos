@@ -14,7 +14,8 @@ abcdefghijklmnopqrstuvwxyz,
 "HH/Placeholder HO/Placeholder OO\012ABCDEFOGHIJKLMN\012OPQHRSTUOVOWXYZ\012/cedi ¢/currencyslash.comb/colonsign ¤$d/dcroat/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat \012/naira/peseta/peso/ruble/rupeeIndian £/won Y¥/cent.osf/dollar.osf/Euro.osf/cent.tosf/space/currency.tosf/dollar.tosf",
 "´/gravecomb/gravecomb `/dblgravecomb/gravecomb.case/dblgravecomb.case/gravecomb.case/Adblgrave/adblgrave/adblgrave",
 "/dblgravecomb.case U/Udblgrave",
-"C/cedi ¢/currencyslash.comb C/colonsign ¤$/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/cent.osf/dollar.osf/Euro.osf/cent.tosf/currency.tosf/dollar.tosf"
+"C/cedi ¢/currencyslash.comb C/colonsign ¤$/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/cent.osf/dollar.osf/Euro.osf/cent.tosf/currency.tosf/dollar.tosf",
+"/brevebelowcomb/abreve/abrevedotbelow/ebreve/gbreve/ibreve/obreve/ubreve/breve/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/macronbelowcomb"
 );
 classes = (
 {
@@ -321,6 +322,12 @@ position = "{159, 102}";
 },
 {
 position = "{463, 291}";
+},
+{
+position = "{404, -185}";
+},
+{
+position = "{508, -55}";
 }
 );
 horizontalStems = (
@@ -19650,7 +19657,7 @@ unicode = 1EAF;
 {
 color = 9;
 glyphname = abrevedotbelow;
-lastChange = "2021-09-24 00:53:55 +0000";
+lastChange = "2021-09-24 02:40:24 +0000";
 layers = (
 {
 background = {
@@ -97253,27 +97260,47 @@ unicode = 0328;
 {
 color = 9;
 glyphname = brevebelowcomb;
-lastChange = "2021-09-24 00:53:55 +0000";
+lastChange = "2021-09-24 02:41:58 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{61, 0}";
+},
+{
+name = bottom;
+position = "{45, -118}";
+}
+);
 components = (
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 0, -566}";
+transform = "{1, 0, 0, 1, -80, -576}";
 }
 );
 layerId = "B4E8C596-9C01-4F8A-BDA4-90320E25C0E6";
 width = 176;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{106, 0}";
+},
+{
+name = bottom;
+position = "{79, -196}";
+}
+);
 components = (
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 0, -566}";
+transform = "{1, 0, 0, 1, -92, -654}";
 }
 );
 layerId = "C7668D88-AC50-4107-9C4B-DB5D26A8FA6C";
-width = 267;
+width = 257;
 }
 );
 unicode = 032E;
