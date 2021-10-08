@@ -1,4 +1,8 @@
+# Genos
+
 Genos is a modern display font with a futuristic feel. Within the Genos family are fourteen variations ranging from Thin to Black. Whether it be futuristic, industrial, or technical, Genos may be what you're looking for. 
+
+![Sample Image](Documentation/image1.png)
 
 ## Building the Fonts
 
